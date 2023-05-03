@@ -1,0 +1,38 @@
+
+.carousel-item img{
+    border-radius: 1rem; 
+    width: 100%;
+}
+.carousel-indicators{
+    background-color: rgba(40,40,40,.4);
+    border-radius: 4px;
+    width: fit-content;
+    left: 50% !important;
+    transform: translate(-50%,0) !important;
+    margin: 0 !important;
+    margin-bottom: 1rem !important;
+    padding: 0 4px !important;
+}
+
+.carousel-caption{
+    background-color: rgba(40,40,40,.4) !important;
+    width: fit-content;
+    height: fit-content;
+    line-height: 1.1rem;
+    padding: 0 4px !important;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    left: 50% !important;
+    transform: translate(-50%,0) !important;
+}
+
+.carousel-caption p{
+    font-size:smaller;
+}
+/* .carousel{
+    box-shadow: 0 0 100px 100px rgba(0,0,0,0.3) inset;
+    transition: all .2s ease-in;
+} */
+/* .carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: rgba(40,40,40,.4) !important;
+} */

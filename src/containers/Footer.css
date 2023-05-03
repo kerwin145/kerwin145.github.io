@@ -1,0 +1,24 @@
+.footer{
+    background-color: var(--accent);
+    display: flex;
+    padding: 2rem 4rem;
+    font-family: Poppins;
+    justify-content: space-around
+}
+
+.footer-socials{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.footer-socials a > *{
+    font-size: 2rem;
+}
+
+.footer p{
+    font-size: large;
+}
+.footer-socials-linksContainer{
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,87 @@
+.about{
+    display: flex;
+    font-family: Poppins;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.about h1{
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem 0rem;
+}
+
+.about p{
+    font-size: 1.1rem;
+    margin: 1.5rem 0;
+}
+
+.about-text, .about-hobbies-container, .about-skills-panel{
+    padding: 1rem;
+    margin: 0 2rem;
+}
+
+.about-skills-bg{
+    background-color: var(--primary);
+}
+
+.about-skills-content{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+}
+
+.about-skills-panel{
+    display: flex;
+    align-self: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+    width: 100%;  
+    max-width: max(400px, 85%);
+    
+
+}
+/*
+.about-border-bottom{
+    border-bottom: 4px dashed var(--accent);
+    margin: 0 10%;
+}
+*/
+.about-hobbies-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-hobbies{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 15%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.about-hobbies > img{
+    flex: 1 1 auto; 
+    max-width:100%;  
+    border-radius: 50%;
+    aspect-ratio: 1;
+    max-height: 70%;
+    object-fit:cover;
+}
+
+.about h3{
+    font-family: Poppins;
+    font-size: 1.5rem;
+}
+
+.about-hobbies-expl{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    align-self: center;
+    padding: 0 2rem;
+}

@@ -1,0 +1,30 @@
+.aboutSkillsPanel{
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: column;
+    justify-items: start;
+    padding: 1rem;
+    min-width: 270px;
+    max-width: max(500px, 30%);
+    background-color: ghostwhite;
+    flex: 1 1 1px;
+   
+    outline: .5rem solid ghostwhite;
+    outline-offset: -.5rem;
+    border: solid .75rem  var(--main-bg); 
+}
+.aboutSkillsPanel-divider{
+    margin: 1rem 0rem;
+    border-bottom: solid var(--secondary);
+    width: 15%;
+}
+ul{
+    margin: 1rem;
+    list-style-position: inside;
+}
+
+.aboutSkillsPanel-deco{
+    position: absolute;
+    z-index: 2;
+    font-size: 4rem;
+}

@@ -1,0 +1,39 @@
+.pdfPanel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    font-family: Poppins;
+    background-color: ghostwhite;
+    padding: 2rem 3rem;
+    border-radius: 2rem;
+}
+
+.pdfPanel h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.pdfPanel p{
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.pdfPanel-viewdoc{
+    border: 4px solid var(--main-bg);
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+    font-size: 1.5rem;
+}
+
+.pdfPanel-viewdoc:hover{
+    text-decoration: underline;
+    box-shadow: inset 0px 0px 2px 2rem var(--main-bg);
+    transition: all .2s ease-in;
+}
+
+.pdfPanel img{
+    max-width: 100%;
+ 
+}

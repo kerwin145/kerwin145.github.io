@@ -1,0 +1,26 @@
+.__navbar{
+    position: sticky;
+    z-index: 3;
+    position: -webkit-sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    background-color: ghostwhite;
+    /* background: linear-gradient(180deg, rgba(248,248,255,1) 76%, rgba(116,163,191,0) 100%);; */
+}
+
+.__navbar h3{
+    font-family: 'Poppins';
+    font-size: 1.25rem;
+}
+
+.__navbar h3:hover{
+    text-decoration: underline;
+}
+
+.__navbar-menu{
+    display: flex;
+    flex-direction: row;
+}

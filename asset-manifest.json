@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.d0fa5a89.css",
+    "main.css": "/static/css/main.09c0b2d3.css",
     "main.js": "/static/js/main.a714315f.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
     "static/media/CollaborativeProject.pdf": "/static/media/CollaborativeProject.c87a5ceb63ce58537205.pdf",
@@ -37,12 +37,12 @@
     "static/media/NorthStream1.png": "/static/media/NorthStream1.55b07ed9cc46dd318906.png",
     "static/media/ToT3.png": "/static/media/ToT3.216b385443ddf62275f2.png",
     "index.html": "/index.html",
-    "main.d0fa5a89.css.map": "/static/css/main.d0fa5a89.css.map",
+    "main.09c0b2d3.css.map": "/static/css/main.09c0b2d3.css.map",
     "main.a714315f.js.map": "/static/js/main.a714315f.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0fa5a89.css",
+    "static/css/main.09c0b2d3.css",
     "static/js/main.a714315f.js"
   ]
 }

@@ -6,6 +6,7 @@ import { NorthStream1, NorthStream2, NorthStream3, NorthStream4, NorthStream5,
   ToT1, ToT2, ToT3, ToT4,
   TaskTracker1, TaskTracker2, TaskTracker3,
   Blvd1, Blvd2,
+  Antrho1, Antrho2, Antrho3, Antrho4, Antrho5 
  } from '../images';
 
 const Projects = () => {
@@ -95,9 +96,52 @@ const Projects = () => {
       "subTitle": "Photo page"
     },
   ]
+  const AnthroSlides = [
+    {
+      "image": Antrho1,
+      "subTitle": "Login"
+    },
+    {
+      "image": Antrho2,
+      "subTitle": "Home"
+    },
+    {
+      "image": Antrho3,
+      "subTitle": "Data view"
+    },
+    {
+      "image": Antrho4,
+      "subTitle": "Input Form"
+    },
+    {
+      "image": Antrho5,
+      "subTitle": "Admin Dashboard"
+    },
+  ]
   return (
     <div className="projects">  
         <h1>Projects</h1>
+        <ProjectPanel 
+          slides = {AnthroSlides}
+          name = "Anthropology Database Website"
+          development= "Summer 2023"
+          description = {
+            <span>
+              <p>
+                Developed during Summer of 2023, this was my first project where I formally delved into full stack development.
+              </p>
+              <p>
+                Working with a classmate, we helped develop an exisiting website that displayed nonhuman primate data for the Stony Brook Anthropology department. 
+              </p>
+              <p>
+                Features we added including an input form whose fields update based off the database schema, 8 different views to display data in a nicely formatted fashion, and an administrator dashboard.
+              </p>
+            </span>
+          }
+          languages = "ReactJS, CSS, NodeJS, ExpressJS, MariaDB (SQL)"
+          color = "var(--accent)"
+          reversed = {true}
+        />
         <ProjectPanel 
           slides = {BlvdSlides}
           name = "Blvd Academy Website"
@@ -139,6 +183,7 @@ const Projects = () => {
           languages = "JavaScript, HTML, CSS"
           color = "var(--secondary)"
           link = "https://github.com/kerwin145/Type-on-Time"
+          reversed = {true}
         />
         <ProjectPanel 
           slides = {ToTSlides}
@@ -181,6 +226,7 @@ const Projects = () => {
           languages = "Java"
           color = "var(--primary)"
           link = "https://github.com/kerwin145/Quick-Maths"
+          reversed = {true}
         />
         <ProjectPanel 
           slides = {NorthStreamSlides}

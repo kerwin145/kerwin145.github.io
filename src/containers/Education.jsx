@@ -16,14 +16,14 @@ const Education = () => {
                     </span>
                     <small>Honors College; Computer Science Honors Program</small>
                     <ul><h5>Relevant Coursework</h5>
-                        <li>Comp Sci A: Honors & Comp Sci B: Honors(CSE160 & CSE 260)</li>
-                        <li>System Fundamentals (CSE220)</li>
+                        <li>Fundamentals of Software Development (CSE316)</li>
+                        <li>System Fundamentals I / II (CSE220/CSE320)</li>
+                        <li>Computational Geometry (AMS345)</li>
+                        <li>Comp Sci A/B: Honors (CSE160/CSE260)</li>
                         <li>Technical Communications (CSE300)</li>
-                        <li>Analysis of Algorithms: Honors(CSE385)</li>
+                        <li>Analysis of Algorithms: Honors (CSE385)</li>
                         <li>Introduction to Data Science: Honors (CSE351)</li>
-                        <li>Finite Mathematical Structures (AMS301)</li>
-                        <li>Survey of Probability and Statistics (AMS310)</li>
-                    </ul>
+                       </ul>
                     <ul><h5>Awards</h5>
                         <li>Dean's List: Fall 2021, Spring 2022, Spring 2023</li>
                         <li>Academic Achievement Award 2023 </li>

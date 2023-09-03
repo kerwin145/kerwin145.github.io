@@ -1,3 +1,4 @@
+import React, {useEffect} from 'react'
 import {Navbar, Intro, About, Footer, Education, Projects, CommPortfolio, Resume} from './containers'
 import {
   BrowserRouter as Router,
@@ -9,9 +10,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 function App() {
+  useEffect(() => {
+    document.title = 'Kelvin Cheng';
+  }, []);
+
   return (
-    <Router>
+    <Router basename = {process.env.PUBLIC_URL}>
         <div className="App">
+        
             <div className="App__content">
             <Navbar/>
             <Routes>

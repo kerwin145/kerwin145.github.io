@@ -1,9 +1,9 @@
 import React from 'react'
 import './Resume.css'
-import { ResumeFeb23 } from '../Pdfs'
+import { ResumeAug23 } from '../Pdfs'
 
 const Resume = () => {
-  const pdfStr = `${ResumeFeb23}#view=FitH`
+  const pdfStr = `${ResumeAug23}#view=FitH`
   return (
     <div className="resume">
         <h1>Resume</h1>

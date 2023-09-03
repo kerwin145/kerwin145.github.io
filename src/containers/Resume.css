@@ -13,8 +13,26 @@
 }
 
 .resume-preview{
-    width: max(75vh, 400px);
+    width: max(100vh, 400px);
+    width: 100%;
     min-height: 85vh;
     aspect-ratio: 5/3;
     margin: 0;
+}
+
+.resume-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (min-width: 1280px) {
+    .resume-preview{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .resume-preview{
+        min-height: 60vh;
+    }
 }

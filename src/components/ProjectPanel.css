@@ -1,20 +1,42 @@
 .project{
-    display: grid;
+    display: flex;
     font-family: Poppins;
-    grid-template-columns: 5fr 4fr;
     gap: 2rem;
     margin: 2rem;
     align-items: center;
     max-width: max(400px, 85%);
+    border: none ;
 }
-
 
 .project h1{
     font-size: 2rem;
 }
 
+.project-header{
+    display: flex;
+    justify-content: space-between;
+    transition: all .4s ease-in;
+}
+
 .project h3{
     font-size: 1.5rem;
+}
+
+.project-description{
+    border-radius: 1rem;
+    padding: 1rem;
+    flex: 4;
+    transition: all .4s ease-in;
+}
+
+.project-minimize{
+    height: fit-content;
+    white-space: nowrap;
+    padding: .25rem;
+    padding-bottom: 0;
+    border: none;
+    border-bottom: 1px solid silver;
+    background-color: white;
 }
 
 .project p{
@@ -26,37 +48,59 @@
 }
 
 .project-content{
-    border-radius: 1rem;
-    padding: 1rem;
+    overflow: hidden;
+    max-height: 800px;
+    transition: all .4s ease-in;
 }
 
 .project-bottom{
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
+    gap: 1rem;
 }
 
 .project-link{
     border: 3px dashed var(--main-bg);
     border-radius: .5rem;
     height: fit-content;
+    white-space: nowrap;
     padding: .75rem;
     font-size: 1.15rem;
 }
 
+.project-link-unavailable{
+    color: gray;
+    opacity: 65%;
+}
+
 .project-link:hover{
-    text-decoration: underline;
     background-color: var(--main-bg);
     transition: all .2s ease-in;
 }
 
+.project-link-unavailable:hover{
+    background-color: ghostwhite;
+    transition: all .2s ease-in;
+}
+
+
+.project-slides{
+    flex: 5
+}
 @media screen and (max-width: 1024px){
     .project{
         display: flex;
-        flex-direction: column;
-        border: 2px dashed;
+        /* important is to override row-reverse in projectpanel component */
+        flex-direction: column !important; 
         padding: 2rem;
         border-radius: 2rem;
+        border: 3px dashed var(--primary)
     }
+
+    .project-content{
+        border: none !important;
+    }
+
 }
 

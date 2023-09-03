@@ -19,7 +19,7 @@
 
 .intro-statement > h1{
     font-family: Oswald;
-    font-size: 4rem;
+    font-size: 5rem;
 }
 
 .intro-statement > h3{
@@ -31,7 +31,7 @@
     margin:0 15%;
     position: relative;
     z-index: 2;
-    flex: 4;
+    flex: 5;
 }
 
 .intro-img:before {
@@ -53,10 +53,65 @@
     object-fit: cover;
     width: 100%;
     max-height: 100%;
-    transition: all 4s ease-in-out;
 }
 
 .intro-img > img:hover{
     opacity: 0%;
     transition-delay: 4s;
+}
+
+/* @media screen and (max-width: 1080px){
+    .intro-statement > h1{
+        font-size: 4.5rem;
+    }
+} */
+
+@media screen and (max-width: 1080px){
+    .intro-statement{
+        border: none;
+        border-bottom: solid 2px;
+        padding-bottom: 2rem;
+        justify-content: center;
+        margin: 0;
+        margin-bottom: 4rem;
+    }
+    .intro{
+        padding: 4rem;
+    }
+
+    .intro-img{
+        margin: 0 4rem;
+    }
+
+    .intro-statement > h1{
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 880px){
+    .intro{
+        flex-direction: column;
+        padding: 4rem 0;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .intro-img{
+        margin: 2rem
+    }
+    .intro-statement{
+        margin: 2rem
+    }
+    .intro{
+        padding: 3rem 0;
+    }
+}   
+
+@media screen and (max-width: 430px){
+    .intro-statement{
+        margin: 1rem
+    }
+    .intro{
+        padding: 2rem 0;
+    }
 }

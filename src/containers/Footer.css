@@ -3,7 +3,7 @@
     display: flex;
     padding: 2rem 4rem;
     font-family: Poppins;
-    justify-content: space-around
+    justify-content: space-around;
 }
 
 .footer-socials{
@@ -17,8 +17,20 @@
 
 .footer p{
     font-size: large;
+    overflow-wrap: anywhere;
 }
 .footer-socials-linksContainer{
     display: flex;
     justify-content: space-around;
+}
+
+@media screen and (max-width: 770px) {
+    .footer{
+        flex-direction: column;
+    }
+
+    .footer-socials-linksContainer{
+        justify-content: flex-start;
+        gap: 1rem;
+    }
 }

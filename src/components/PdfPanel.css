@@ -29,7 +29,7 @@
 
 .pdfPanel-viewdoc:hover{
     text-decoration: underline;
-    box-shadow: inset 0px 0px 2px 2rem var(--main-bg);
+    box-shadow: inset 0px 0px 2px 4rem var(--main-bg);
     transition: all .2s ease-in;
 }
 

@@ -35,17 +35,18 @@ const About = () => {
             <div className="about-text">
                 <h1>About Me</h1>
                 <p>
-                    I'm a Sophomore studying Computer Science and Applied Math (AMS) at Stony Brook University!   
-                </p>
-                <p>
-                    Some hobbies of mine include playing classical piano and violin music and ping pong. I also enjoy skiing during wintertime. I also have a pet turtle, who likes to disrupt my workflow by sitting on my keyboard. 
+                    I'm a Junior studying Computer Science and Applied Math (AMS) at Stony Brook University!   
                 </p>
                 <p>             
-                    My *technical* interests lie in web and game development, where I am most familiar with Java, but also have some experience in HTML, CSS, and Javascript, and ReactJS. 
+                    My *technical* interests lie in web and game development, where I am most familiar with Java, but also have experience in HTML, CSS, and Javascript, and ReactJS (which this website is built in!).
                 </p> 
                 <p>
                     On campus, I have a part time position working for the University's IT department as client support. I handle taks ranginge from handling reception and assisting customers over the phone to working on university and student devices and deploying them across campus. 
                 </p> 
+                <p>
+                    Some hobbies of mine include playing classical piano and violin music and ping pong. I enjoy these hobbies because, despite being muslce memory based, they more importantly allow me apply critical thinking skills and unwind from my day-to-day stresses.
+                </p>
+               
             </div>
             <div className="about-skills-bg">
                 <div className="about-skills-content">
@@ -53,7 +54,7 @@ const About = () => {
                     <div className="about-skills-panel">
                         <AboutSkillsPanel
                         title = "Programming Lanuages"
-                        skills = {["Java", "JS/HTML/CSS", "C", "C#", "MIPS"]}
+                        skills = {["Java", "JS/HTML/CSS", "C",  "Python", "SQL", "C#", "MIPS"]}
                         />
                         <AboutSkillsPanel
                         title = "Lanuages"
@@ -61,7 +62,7 @@ const About = () => {
                         />
                         <AboutSkillsPanel
                         title = "Development Tools"
-                        skills = {["React", "Unity", "Firebase"]}
+                        skills = {["React", "NodeJS", "Unity", "Firebase"]}
                         />                     
                     </div>
                 </div>

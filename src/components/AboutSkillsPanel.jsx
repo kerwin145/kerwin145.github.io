@@ -2,7 +2,7 @@ import React, {Children} from 'react'
 import './AboutSkillsPanel.css'
 
 
-const AboutSkillsPanel = ({title, skills, iconDeco}) => {
+const AboutSkillsPanel = ({title, skills, borderColor}) => {
   return (
     <div className="aboutSkillsPanel">
         <h3>{title}</h3>

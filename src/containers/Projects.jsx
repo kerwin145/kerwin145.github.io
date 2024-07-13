@@ -6,7 +6,8 @@ import { NorthStream1, NorthStream2, NorthStream3, NorthStream4, NorthStream5,
   ToT1, ToT2, ToT3, ToT4,
   TaskTracker1, TaskTracker2, TaskTracker3,
   Blvd1, Blvd2,
-  Antrho1, Antrho2, Antrho3, Antrho4, Antrho5 
+  Antrho1, Antrho2, Antrho3, Antrho4, Antrho5,
+  TrBuddy1, TrBuddy2, TrBuddy3, TrBuddy4, TrBuddy5
  } from '../images';
 
 const Projects = () => {
@@ -118,9 +119,56 @@ const Projects = () => {
       "subTitle": "Admin Dashboard"
     },
   ]
+
+  const TrBuddySliddes = [
+    {
+      "image": TrBuddy1,
+      "subTitle": "Single word"
+    },
+    {
+      "image": TrBuddy2,
+      "subTitle": "Multi-word"
+    },
+    {
+      "image": TrBuddy3,
+      "subTitle": "Hovering over compound word"
+    },
+    {
+      "image": TrBuddy4,
+      "subTitle": "Resize"
+    },
+    {
+      "image": TrBuddy5,
+      "subTitle": "Keyword extraction"
+    }
+  ]
   return (
     <div className="projects">  
         <h1>Projects</h1>
+        <ProjectPanel 
+          slides = {TrBuddySliddes}
+          name = "Translate Buddy"
+          development= "Summer 2024"
+          description = {
+            <span>
+              <p>
+                Developed during Summer of 2024, this was my first google extension project. 
+              </p>
+              <p>
+                As an American-born Chinese (ABC), I went to Chinese school as a kid -- and hated it. Recently, I have had a new interest in learning Chinese, and have discovered an interest among my ABC friends as well. Ergo, I have decided to create a sort of Chinese learning tool.
+              </p>
+              <p>
+                This is an extended dictionary usable on any website (though preferrably one with Chinese). After highlighting text and clicking translate on the right click menu, your text will be searched in the extension's dictionary, and definitions will pop up! Additional features include compound words, HSK level data, example sentences, and stroke order guide. I also included some features that will improve performance, such as caching of certain web queries, as well the construction of an inverted index to handle keyword extraction (in slide 5). 
+              </p>
+              <p>This project is far from done, and I aim to make this a full on study tool in addition to a dictionary. Some future features include a personal word bank, words of the day, and quizzes. Stay tuned for more!</p>
+              <p>If you wish to try it out, it is available on the <a style = {{color: "var(--accent)"}}  target = "_blalk" href = "https://chromewebstore.google.com/detail/translate-buddy/lahlhfhdbpgnmpolhkkhnflinffdogaa">Chrome webstore</a>!</p>
+            </span>
+          }
+          languages = "JS, Python, HTML/CSS"
+          color = "var(--main-bg)"
+          link = "https://github.com/kerwin145/translate-buddy"
+          reversed={true}
+        />
         <ProjectPanel 
           slides = {AnthroSlides}
           name = "Anthropology Database Website"
@@ -140,7 +188,6 @@ const Projects = () => {
           }
           languages = "ReactJS, CSS, NodeJS, ExpressJS, MariaDB (SQL)"
           color = "var(--accent)"
-          reversed = {true}
         />
         <ProjectPanel 
           slides = {BlvdSlides}
@@ -162,6 +209,7 @@ const Projects = () => {
           languages = "React, JSX, HTML, CSS"
           color = "var(--primary)"
           link = "https://github.com/kerwin145/blvd-academy-website"
+          reversed = {true}
         />
         <ProjectPanel 
           slides = {TaskTrackerSlides}
@@ -183,7 +231,6 @@ const Projects = () => {
           languages = "JavaScript, HTML, CSS"
           color = "var(--secondary)"
           link = "https://github.com/kerwin145/Type-on-Time"
-          reversed = {true}
         />
         <ProjectPanel 
           slides = {ToTSlides}
@@ -205,6 +252,7 @@ const Projects = () => {
           languages = "Java"
           color = "var(--accent)"
           link = "https://github.com/kerwin145/Type-on-Time"
+          reversed = {true}
         />
         <ProjectPanel 
           slides = {QuickMathsSlides}
@@ -226,7 +274,6 @@ const Projects = () => {
           languages = "Java"
           color = "var(--primary)"
           link = "https://github.com/kerwin145/Quick-Maths"
-          reversed = {true}
         />
         <ProjectPanel 
           slides = {NorthStreamSlides}
@@ -246,6 +293,7 @@ const Projects = () => {
           languages = "Java"
           color = "var(--secondary)"
           link = "https://github.com/kerwin145/TalesOfNorthStream"
+          reversed = {true}
         />
     </div>
   )

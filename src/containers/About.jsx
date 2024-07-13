@@ -24,7 +24,7 @@ const About = () => {
         },
         turtle: {
             title: "Todd the Turtle",
-            text: "He likes the computer. Either it's warm or he wants my attention. Probably because it's warm"
+            text: "He likes the computer. Either it's warm or he wants my attention. Probably because it's warm."
         },
 
     }
@@ -35,16 +35,16 @@ const About = () => {
             <div className="about-text">
                 <h1>About Me</h1>
                 <p>
-                    I'm a Junior studying Computer Science and Applied Math (AMS) at Stony Brook University!   
+                    I'm a rising senior studying Computer Science and Applied Math (AMS) at Stony Brook University!   
                 </p>
                 <p>             
-                    My *technical* interests lie in web and game development, where I am most familiar with Java, but also have experience in HTML, CSS, and Javascript, and ReactJS (which this website is built in!).
+                    My *technical* interests lie in making apps that are both fun and educational, whether it be through web or game devleopment. I am most familiar with Javascript and ReactJS (which this website is built in!), but also have proficiency in Java and Python.
                 </p> 
                 <p>
-                    On campus, I have a part time position working for the University's IT department as client support. I handle taks ranginge from handling reception and assisting customers over the phone to working on university and student devices and deploying them across campus. 
+                    Over the Summer of 2024, I will working at Stony Brook's Computer Science department handling the migration of websites built on the Drupal CMS. When semester starts, I will be continuing my position at the University's IT department as client support. There, I handle taks ranging from handling reception and assisting customers over the phone to working on university and student devices and deploying them across campus, all while closely working with new student hires, familiarizing them with the lines of work.
                 </p> 
                 <p>
-                    Some hobbies of mine include playing classical piano and violin music and ping pong. I enjoy these hobbies because, despite being muslce memory based, they more importantly allow me apply critical thinking skills and unwind from my day-to-day stresses.
+                    My favorite hobby is playing classical piano and violin. I also enjoy playing table tennsi. I find enjoyment in these hobbies because, despite being muslce memory based, they more importantly allow me apply critical thinking skills and unwind from my day-to-day stresses.
                 </p>
                
             </div>
@@ -54,16 +54,16 @@ const About = () => {
                     <div className="about-skills-panel">
                         <AboutSkillsPanel
                         title = "Programming Lanuages"
-                        skills = {["Java", "JS/HTML/CSS", "C",  "Python", "SQL", "C#", "MIPS"]}
+                        skills = {["JS/HTML/CSS", "Java",  "C",  "Python", "SQL", "C#", "MIPS"]}
                         />
+                        <AboutSkillsPanel
+                        title = "Development Tools"
+                        skills = {["ReactJS", "NodeJS", "MongoDB", "Nginx", "git/Github", "Upcloud", "Unity", "Firebase", "Postman"]}
+                        />                     
                         <AboutSkillsPanel
                         title = "Lanuages"
                         skills = {["English - native", "Chinese - proficient", "French - elementary", "Shanghainese - proficient"]}
                         />
-                        <AboutSkillsPanel
-                        title = "Development Tools"
-                        skills = {["React", "NodeJS", "Unity", "Firebase"]}
-                        />                     
                     </div>
                 </div>
             </div>
@@ -79,19 +79,19 @@ const About = () => {
                     </p>
                 </div>
                 <div className="about-hobbies">
-                    <img src = {piano} alt="" onClick={()=>setExpl({
+                    <img src = {piano} alt="" style = {{border: "5px solid var(--main-bg)"}} onClick={()=>setExpl({
                         title: panelTexts.piano.title,
                         text: panelTexts.piano.text
                     })}/>
-                    <img src = {pingpong} alt="" onClick={()=>setExpl({
+                    <img src = {pingpong} style = {{border: "5px solid var(--primary)"}} alt="" onClick={()=>setExpl({
                         title: panelTexts.pingpong.title,
                         text: panelTexts.pingpong.text
                     })}/>
-                    <img src = {ski} alt="" onClick={()=>setExpl({
+                    <img src = {ski} style = {{border: "5px solid var(--accent)"}} alt="" onClick={()=>setExpl({
                         title: panelTexts.ski.title,
                         text: panelTexts.ski.text
                     })}/>
-                    <img src = {turtle} alt="" onClick={()=>setExpl({
+                    <img src = {turtle} style = {{border: "5px solid var(--secondary)"}} alt="" onClick={()=>setExpl({
                         title: panelTexts.turtle.title,
                         text: panelTexts.turtle.text
                     })}/>

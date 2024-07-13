@@ -16,3 +16,17 @@
 .projects h3{
     font-size: 1.5rem;
 }
+
+.carousel-caption p{
+    text-shadow: 1px 1px 1px black;
+    margin-top: 12px !important;
+    margin-bottom: 12px;
+}
+
+a.carousel-control-next, a.carousel-control-prev{
+    width: 10%;
+}
+
+.carousel-control-next span, .carousel-control-prev span{
+    filter: invert(100%);
+}

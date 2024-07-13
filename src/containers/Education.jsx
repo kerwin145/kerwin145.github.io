@@ -16,21 +16,23 @@ const Education = () => {
                     </span>
                     <small>Honors College; Computer Science Honors Program</small>
                     <ul><h5>Relevant Coursework</h5>
-                        <li>Fundamentals of Software Development (CSE316)</li>
+                        <li>Cloud Computing (CSE356)</li>
                         <li>System Fundamentals I / II (CSE220/CSE320)</li>
+                        <li>Fundamentals of Software Development I / II (CSE316/CSE416)</li>
+                        <li>Analysis of Algorithms: Honors (CSE385)</li>
+                        <li>Introduction to Data Science(CSE351)</li>
                         <li>Computational Geometry (AMS345)</li>
+                        <li>Data Analysis (AMS315)</li>
                         <li>Comp Sci A/B: Honors (CSE160/CSE260)</li>
                         <li>Technical Communications (CSE300)</li>
-                        <li>Analysis of Algorithms: Honors (CSE385)</li>
-                        <li>Introduction to Data Science: Honors (CSE351)</li>
                        </ul>
                     <ul><h5>Awards</h5>
-                        <li>Dean's List: Fall 2021, Spring 2022, Spring 2023</li>
-                        <li>Academic Achievement Award 2023 </li>
+                        <li>Dean's List: Fall 2021, Spring 2022, Spring 2023. Fall 2023</li>
+                        <li>Academic Achievement Award 2023</li>
                     </ul>
                     <h5>University Employment:</h5>
-                    <p>Currently, I'm work for the Division of Information Technology, where I diagnose customer tech issues sourced from in-person walk-ins and over the phone calls. These issues range from wi-fi connectivity and password resets to computer setups. I was responsible for ensuring a resolution was reached by documenting and escalating the customer's requests to appropriate internal and external teams. I also work both on the field and behind the scenes, setting up and preparing physical devices for redeployment across campus.
-                    </p>
+                    <p>Over the Summer of 2024, I'm migrating websites for Stony Brook's Computer Science department. As Stony Brook is well known as a research institution, we have the important role of making sure the websites for the various labs in the department are kept up to date with newer versions of Drupal.</p>
+                    <p>During the fall and spring semester, I'm work for the Division of Information Technology, where I diagnose customer tech issues sourced from in-person walk-ins and over the phone calls. These issues range from wi-fi connectivity and password resets to computer setups. I was responsible for ensuring a resolution was reached by documenting and escalating the customer's requests to appropriate internal and external teams. I also work both on the field and behind the scenes, setting up and preparing physical devices for redeployment across campus.</p>
                 </div>
             </div>
 

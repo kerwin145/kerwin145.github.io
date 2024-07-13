@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.6b1e938a.css",
-    "main.js": "/static/js/main.cb685848.js",
+    "main.css": "/static/css/main.6a751f95.css",
+    "main.js": "/static/js/main.67098467.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
     "static/media/CollaborativeProject.pdf": "/static/media/CollaborativeProject.c87a5ceb63ce58537205.pdf",
-    "static/media/homeMainImg.JPG": "/static/media/homeMainImg.208ca8917d3307a52cf1.JPG",
     "static/media/PressRelease.pdf": "/static/media/PressRelease.c315d790331e68d645fd.pdf",
+    "static/media/homeMainImg.JPG": "/static/media/homeMainImg.9015036e8edfffea8418.JPG",
     "static/media/Blvd1.png": "/static/media/Blvd1.9c196d16a830c8774b3e.png",
     "static/media/Blvd2.png": "/static/media/Blvd2.67fce88b37bd26a1fbb2.png",
     "static/media/QuickMaths3.png": "/static/media/QuickMaths3.ed20fadb9f013e00ff1d.png",
@@ -19,7 +19,12 @@
     "static/media/UserInstructions.pdf": "/static/media/UserInstructions.721855794b9a145acf97.pdf",
     "static/media/QuickMaths2.png": "/static/media/QuickMaths2.3d0b339958b20acfe444.png",
     "static/media/about_pingpong.jpg": "/static/media/about_pingpong.27251234682f2bfc9c32.jpg",
+    "static/media/TrBuddy3.png": "/static/media/TrBuddy3.49f92d76d7e039f056dd.png",
+    "static/media/TrBuddy4.png": "/static/media/TrBuddy4.f39e58f9ec2d21bcb899.png",
+    "static/media/TrBuddy1.png": "/static/media/TrBuddy1.bd5b852eae3941cb284b.png",
+    "static/media/TrBuddy2.png": "/static/media/TrBuddy2.fd69cf48871ac719b3c7.png",
     "static/media/ToT2.png": "/static/media/ToT2.ee52f622f010a8c7d32f.png",
+    "static/media/TrBuddy5.png": "/static/media/TrBuddy5.b3aa7af74e0a73d70bd4.png",
     "static/media/ToT1.png": "/static/media/ToT1.a003cb4078341a6c8e4f.png",
     "static/media/ToT4.png": "/static/media/ToT4.f6ed8223addb21459458.png",
     "static/media/about_piano.jpg": "/static/media/about_piano.749ea46a2c4490a5a74f.jpg",
@@ -29,6 +34,7 @@
     "static/media/UserInstrPrev.png": "/static/media/UserInstrPrev.f46000c4b1c84a8fce5a.png",
     "static/media/Anthro4.png": "/static/media/Anthro4.f3c06fac52f11a2d0d8d.png",
     "static/media/Kelvin Cheng Resume Aug 2023.pdf": "/static/media/Kelvin Cheng Resume Aug 2023.7d341b15743b1877481a.pdf",
+    "static/media/Kelvin Cheng Resume June 2024.pdf": "/static/media/Kelvin Cheng Resume June 2024.9427dce64bd047c95968.pdf",
     "static/media/Kelvin Cheng Resume Feb 2023.pdf": "/static/media/Kelvin Cheng Resume Feb 2023.83ddeee6be82cc627db5.pdf",
     "static/media/education-hhs.jpg": "/static/media/education-hhs.41d27c74dab1abf4cac3.jpg",
     "static/media/NorthStream5.png": "/static/media/NorthStream5.1b078dbd6856296eb4b4.png",
@@ -43,12 +49,12 @@
     "static/media/NorthStream1.png": "/static/media/NorthStream1.55b07ed9cc46dd318906.png",
     "static/media/ToT3.png": "/static/media/ToT3.216b385443ddf62275f2.png",
     "index.html": "/index.html",
-    "main.6b1e938a.css.map": "/static/css/main.6b1e938a.css.map",
-    "main.cb685848.js.map": "/static/js/main.cb685848.js.map",
+    "main.6a751f95.css.map": "/static/css/main.6a751f95.css.map",
+    "main.67098467.js.map": "/static/js/main.67098467.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b1e938a.css",
-    "static/js/main.cb685848.js"
+    "static/css/main.6a751f95.css",
+    "static/js/main.67098467.js"
   ]
 }
